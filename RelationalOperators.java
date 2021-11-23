@@ -9,7 +9,7 @@ public class RelationalOperators {
 		a = sc.nextInt();
 		System.out.println("Enter 2nd number: ");
 		b = sc.nextInt();
-		System.out.println("a is " + a + " and b is " + b);
+		System.out.println("a value is: " + a + " and b value is: " + b);
 
 	    // is equal to operator
 	    System.out.println(a == b);
