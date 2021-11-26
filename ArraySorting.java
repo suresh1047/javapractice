@@ -4,7 +4,7 @@ public class ArraySorting {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Enter the array elements length: ");
+		System.out.print("Enter the length of array elements: ");
 		int n = sc.nextInt();
 		int [] arr = new int [n];
 		System.out.println("Enter array elemets: ");
