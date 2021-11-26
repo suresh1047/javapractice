@@ -23,7 +23,7 @@ public class ArraySorting {
 		}
 		System.out.println("Array element after shorting: ");
 		for (int element : arr) {
-			System.out.println(element + " ");
+			System.out.print(element + " ");
 		}
 
 	}
