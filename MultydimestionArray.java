@@ -38,6 +38,19 @@ public class MultydimestionArray {
 		}
 		System.out.println();
 	}
+	int arrdif[][] = new int [r][c];
+	for(int i = 0; i < r; i++) {
+		for(int j = 0; j < c; j++) {
+			arrdif[i][j] = arr1[i][j] - arr2[i][j];
+		}
+	}
+	System.out.println("Difference of multydimestion array 1st and 2nd:" );
+	for(int i = 0; i < r; i++) {
+		for(int j = 0; j < c; j++) {
+			System.out.print(arrdif[i][j]+ " ");
+		}
+		System.out.println();
+	}
 	}
 
 }
